@@ -6,12 +6,14 @@ Aplicación local para el profesorado: guarda el inventario del laboratorio, lee
 
 ## Descargar e instalar
 
-| Sistema | Instalable | Instrucciones |
-|---|---|---|
-| **Windows 10/11** | [`Windows/LaboratorioFyQ_Windows_v1.0.zip`](Windows/LaboratorioFyQ_Windows_v1.0.zip) | Descomprimir y doble clic en «Instalar Laboratorio FyQ.bat». Python incluido. |
-| **macOS 10.15+** | [`Mac/LaboratorioFyQ_Mac_v1.0.dmg`](Mac/LaboratorioFyQ_Mac_v1.0.dmg) | Abrir el DMG y arrastrar la app a Aplicaciones. |
+**[⬇ Página de descargas (Release v1.0)](https://github.com/javixxins/LABORATORIO-FYQ/releases/latest)**
 
-Guía de uso completa con capturas: [`Tutorial_Laboratorio_FyQ.pdf`](Tutorial_Laboratorio_FyQ.pdf)
+| Sistema | Descarga directa | Instrucciones |
+|---|---|---|
+| **Windows 10/11** | [LaboratorioFyQ_Windows_v1.0.zip](https://github.com/javixxins/LABORATORIO-FYQ/releases/download/v1.0/LaboratorioFyQ_Windows_v1.0.zip) | Descomprimir y doble clic en «Instalar Laboratorio FyQ.bat». Python incluido. |
+| **macOS 10.15+** | [LaboratorioFyQ_Mac_v1.0.dmg](https://github.com/javixxins/LABORATORIO-FYQ/releases/download/v1.0/LaboratorioFyQ_Mac_v1.0.dmg) | Abrir el DMG y arrastrar la app a Aplicaciones. |
+
+Guía de uso completa con capturas: [Tutorial_Laboratorio_FyQ.pdf](https://github.com/javixxins/LABORATORIO-FYQ/releases/download/v1.0/Tutorial_Laboratorio_FyQ.pdf)
 
 > Los instaladores no están firmados: la primera vez, en Mac usa clic derecho → «Abrir»; en Windows, «Más información» → «Ejecutar de todas formas».
 
