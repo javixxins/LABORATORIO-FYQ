@@ -1,0 +1,7 @@
+# datos del usuario (inventario, grupos, alumnos, guiones subidos)
+datos/
+# temporales
+__pycache__/
+*.pyc
+.DS_Store
+construccion/_tmp/

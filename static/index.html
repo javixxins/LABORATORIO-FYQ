@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laboratorio FyQ</title>
+  <link rel="icon" href="/static/icono.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <img id="brandLogo" src="/logo" alt="Logo del instituto">
+      <div>
+        <div id="brandName" class="brand-name">Instituto</div>
+        <div class="brand-sub">Laboratorio de Física y Química</div>
+      </div>
+    </div>
+    <nav id="nav">
+      <a data-view="panel"><span class="ico">⌂</span>Panel</a>
+      <a data-view="inventario"><span class="ico">⚗</span>Inventario</a>
+      <a data-view="practicas"><span class="ico">✎</span>Prácticas</a>
+      <a data-view="grupos"><span class="ico">☺</span>Cursos y grupos</a>
+      <a data-view="copia"><span class="ico">⇅</span>Exportar / importar stock</a>
+      <a data-view="historial"><span class="ico">↺</span>Historial</a>
+      <a data-view="config"><span class="ico">⚙</span>Configuración</a>
+    </nav>
+    <div class="sidebar-foot">
+      <svg viewBox="0 0 120 60" class="molecule" aria-hidden="true">
+        <line x1="20" y1="40" x2="55" y2="20"/><line x1="55" y1="20" x2="95" y2="38"/><line x1="55" y1="20" x2="60" y2="5"/>
+        <circle cx="20" cy="40" r="8"/><circle cx="55" cy="20" r="11" class="c2"/><circle cx="95" cy="38" r="8"/><circle cx="60" cy="5" r="4"/>
+      </svg>
+      <span>Stock · Viabilidad · Informes</span>
+    </div>
+  </aside>
+
+  <main id="main"></main>
+
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <button class="modal-x" onclick="UI.closeModal()" aria-label="Cerrar">×</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <div id="verdict" class="verdict hidden"></div>
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

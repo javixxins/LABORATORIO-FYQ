@@ -1,0 +1,27 @@
+LABORATORIO FyQ · Control de stock y viabilidad de prácticas
+=============================================================
+
+CÓMO ABRIRLA
+  Doble clic en «Laboratorio FyQ.app» (en esta carpeta o en el Escritorio).
+  Se abre en el navegador en http://127.0.0.1:8642 (si ese puerto estuviera ocupado
+  por otra aplicación, usa automáticamente el siguiente libre hasta el 8661).
+
+PRIMEROS PASOS
+  1. Configuración: nombre del instituto, logo, mesas, alumnos por mesa, sillas y capacidad.
+  2. Cursos y grupos: curso, grupo, nº de alumnos, forma de trabajo y listado de alumnos.
+  3. Inventario: añade tu material (o carga el inventario de ejemplo y ajústalo).
+  4. Prácticas: sube el PDF del guion → revisa la asignación → «Comprobar viabilidad».
+     Desde ahí: informe PDF (con croquis del laboratorio) y exportar proyecto (.labfyq).
+
+DATOS
+  Todo se guarda en la carpeta «datos» (base de datos laboratorio.db y guiones PDF).
+  Haz copia de seguridad de esa carpeta de vez en cuando.
+
+INSTALABLES PARA OTROS ORDENADORES
+  Mac/      LaboratorioFyQ_Mac_v1.0.dmg      (+ instrucciones de instalación)
+  Windows/  LaboratorioFyQ_Windows_v1.0.zip  (+ instrucciones de instalación; Python incluido)
+  En los ordenadores donde se instale, los datos se guardan en la carpeta del usuario:
+    Mac:     ~/Library/Application Support/Laboratorio FyQ
+    Windows: %APPDATA%\Laboratorio FyQ
+  Para regenerarlos tras cambiar la app:
+    python3 construccion/construir.py <ruta a python-3.12.10-embed-amd64.zip>

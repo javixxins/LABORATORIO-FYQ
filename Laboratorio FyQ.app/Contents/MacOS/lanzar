@@ -1,0 +1,5 @@
+#!/bin/bash
+# Lanza Laboratorio FyQ: la carpeta del proyecto es la que contiene esta app
+APPDIR="$(cd "$(dirname "$0")/../../.." && pwd)"
+if [ -f "$APPDIR/launch.py" ]; then PROY="$APPDIR"; else PROY="$(cat "$HOME/.laboratorio_fyq_ruta" 2>/dev/null)"; fi
+exec /usr/bin/python3 "$PROY/launch.py"

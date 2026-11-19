@@ -1,0 +1,28 @@
+LABORATORIO FyQ 1.0 · INSTALACIÓN EN MAC
+==========================================
+
+1. Abre el archivo LaboratorioFyQ_Mac_v1.0.dmg (doble clic).
+2. Arrastra «Laboratorio FyQ» a la carpeta «Aplicaciones».
+3. Abre «Laboratorio FyQ» desde Aplicaciones (o desde Launchpad).
+   La app se abre en tu navegador, en http://127.0.0.1:8642
+
+LA PRIMERA VEZ
+  · Como la app no se ha descargado del App Store, macOS puede decir que
+    «no se puede abrir porque es de un desarrollador no identificado».
+    Solución: en Aplicaciones, haz clic derecho (o Ctrl + clic) sobre
+    «Laboratorio FyQ» → «Abrir» → «Abrir». Solo hay que hacerlo una vez.
+    (En macOS 15: Ajustes del Sistema → Privacidad y seguridad → «Abrir igualmente».)
+  · Si el Mac no tiene Python 3, la app te ofrecerá instalar las
+    «Herramientas de línea de comandos» de Apple (gratis). Acepta, espera a
+    que terminen y vuelve a abrir la app.
+
+TUS DATOS
+  Se guardan en: ~/Library/Application Support/Laboratorio FyQ
+  Al actualizar o reinstalar la app no se pierden.
+  Para pasar el inventario a otro ordenador: sección «Exportar / importar stock».
+
+DESINSTALAR
+  Arrastra «Laboratorio FyQ» de Aplicaciones a la Papelera.
+  (Si quieres borrar también los datos, borra la carpeta indicada arriba.)
+
+Requisitos: macOS 10.15 o posterior (Intel o Apple Silicon).

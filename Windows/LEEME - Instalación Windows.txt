@@ -1,0 +1,27 @@
+﻿LABORATORIO FyQ 1.0 · INSTALACIÓN EN WINDOWS
+=============================================
+
+1. Descomprime LaboratorioFyQ_Windows_v1.0.zip
+   (clic derecho → «Extraer todo...»). No lo ejecutes desde dentro del zip.
+2. Abre la carpeta extraída y haz doble clic en «Instalar Laboratorio FyQ.bat».
+3. Se crea el icono «Laboratorio FyQ» en el Escritorio y en el menú Inicio,
+   y la app se abre en el navegador (http://127.0.0.1:8642).
+
+No hace falta instalar Python ni nada más: va incluido.
+No necesita permisos de administrador (se instala solo para tu usuario).
+
+LA PRIMERA VEZ
+  · Windows puede mostrar «Windows protegió su PC» (SmartScreen) porque el
+    instalador no está firmado. Pulsa «Más información» → «Ejecutar de todas formas».
+  · Si el firewall de Windows pregunta por Python, puedes pulsar «Cancelar»:
+    la app solo funciona dentro de tu ordenador y no necesita acceso a la red.
+
+TUS DATOS
+  Se guardan en: %APPDATA%\Laboratorio FyQ
+  Al actualizar o reinstalar (volver a ejecutar el instalador) no se pierden.
+  Para pasar el inventario a otro ordenador: sección «Exportar / importar stock».
+
+DESINSTALAR
+  Configuración → Aplicaciones → Aplicaciones instaladas → «Laboratorio FyQ» → Desinstalar.
+
+Requisitos: Windows 10 u 11 (64 bits).
